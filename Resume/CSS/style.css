@@ -92,13 +92,14 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .flex img{
     display: flex;
     justify-content: space-around;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     margin: 10px auto;
     cursor: pointer;
 }
