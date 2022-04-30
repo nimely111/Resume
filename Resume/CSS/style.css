@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: none;
-
+    background-position: cover;
 }
 
 /*======header starts=====*/
@@ -11,7 +11,7 @@ header{
     background-color: #BE3145;
     position: fixed;
     height: 75px;
-    width: 100vw;
+    width: 100%;
     left: 0;
     right: 0;
     text-align: right;
@@ -75,7 +75,6 @@ a:link, a:visited{
     background: #45567D;
     background-position: center center;
     width: 100vw;
-    /* height: 90vh; */
 }
 
 #work h1{
