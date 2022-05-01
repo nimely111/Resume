@@ -179,12 +179,15 @@ textarea{
 } 
 
 .social{
-    width: 100%;
+    width: 100vw;
     height: 75px;
-    background: #303134;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .social div{
