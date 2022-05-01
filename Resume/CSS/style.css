@@ -181,7 +181,7 @@ textarea{
 .social{
     width: 100vw;
     height: 75px;
-    background: transparent;
+    /* background: transparent; */
     display: flex;
     justify-content: center;
     align-items: center;
