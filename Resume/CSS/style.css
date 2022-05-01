@@ -124,7 +124,7 @@ hr{
     background: white;
     background-position: center center;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     overflow: hidden;
     /* opacity: 0.5; */
 }
@@ -151,6 +151,13 @@ hr{
 .my-form input[type="submit"]:hover{
     color: #BE3145;
     background-color: #fff
+}
+
+textarea{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 .form-group{
