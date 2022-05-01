@@ -178,5 +178,10 @@ textarea{
     background-color: #303134;
 } 
 
-
+.social{
+    width: 100%;
+    height: 75px;
+    background: #303134;
+    display: flex;
+}
 
