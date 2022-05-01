@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 
 /*======header starts=====*/
@@ -120,12 +121,46 @@ hr{
 }
 
 #contact{
-    width: 100vh;
-    height: 100vh;
-    background: #BE3145;
+    background: white;
+    background-position: center center;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    /* opacity: 0.5; */
 }
 
-#contact form{
-    margin: 30px auto;
+.my-form input[type="text"],[type="email"] {
+    width: 100%;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.my-form input[type="submit"]{
+    width: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #BE3145;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.my-form input[type="submit"]:hover{
+    color: #BE3145;
+    background-color: #fff
+}
+
+.form-group{
+    max-width: 500px;
+    margin: 70px auto;
+    padding: 20px;
+    border-top: 12px solid #BE3145;
+    border-right: 12px solid #BE3145;
+    border-bottom: 12px solid #BE3145;
+    box-shadow:inset 0px 0px 10px;
+    background-color: #303134;
 }
 
