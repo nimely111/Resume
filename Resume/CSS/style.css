@@ -158,9 +158,11 @@ hr{
     margin: 70px auto;
     padding: 20px;
     border-top: 12px solid #BE3145;
-    border-right: 12px solid #BE3145;
+    border-right: 30px solid #BE3145;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     border-bottom: 12px solid #BE3145;
     box-shadow:inset 0px 0px 10px;
     background-color: #303134;
-}
+} db
 
