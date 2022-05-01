@@ -183,5 +183,11 @@ textarea{
     height: 75px;
     background: #303134;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social div{
+    padding-right: 10px;
 }
 
