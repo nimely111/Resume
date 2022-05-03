@@ -53,7 +53,9 @@ a:link, a:visited{
 
 .main-area{
     margin-top: 73px;
-    background: #303134;
+    background-color: #303134;
+    background-image: radial-gradient(#BE3145 3px, transparent 3px);
+    background-size: 50px 50px;
     background-position: center center;
     width: 100vw;
     height: 100vh;
