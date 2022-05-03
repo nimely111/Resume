@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-size: cover;
 }
 
 /*======header starts=====*/
@@ -10,7 +9,7 @@ header{
     background-color: #BE3145;
     position: fixed;
     height: 75px;
-    width: 100%;
+    width: 100vw;
     left: 0;
     right: 0;
     text-align: right;
@@ -28,12 +27,13 @@ header li:hover{
 
 }
 body {
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    width: 100vw;
     font-family: Helvetica, Arial, sans-serif;
     color: #fff;
     text-align: center;
     font-size: 1.5em;
+    overflow-x: hidden;
 }
 
 header li{
